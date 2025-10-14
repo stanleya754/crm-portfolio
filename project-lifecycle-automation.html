@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulated Project: Lead Lifecycle & MQL→SQL Automation</title>
+<link rel="stylesheet" href="../style.css"></head><body>
+<div class="container">
+  <div class="nav">
+    <div class="brand">Stanley Asamoah · CRM/RevOps</div>
+    <div class="links">
+      <a href="../index.html">Home</a><a href="../projects.html">Projects</a><a href="../salesforce.html">Salesforce</a><a href="../hubspot.html">HubSpot</a><a href="../roi-calculator.html">ROI Calculator</a><a href="../resume.html">Resume</a><a href="../contact.html">Contact</a>
+    </div>
+  </div>
+  <p class="badge">This is simulated project/lab work designed to demonstrate skills and thinking. Updated October 14, 2025.</p>
+  <h1>Simulated Project: Lead Lifecycle & MQL→SQL Automation</h1>
+  <div class="grid">
+    <div class="card">
+      <h3>Overview</h3>
+      <p>Automated lifecycle stages and sales handoffs to increase conversion and response speed.</p>
+      <ul>
+        <li>Defined lifecycle taxonomy and guardrails (Lead, MQL, SQL, Opportunity).</li>
+        <li>Implemented HubSpot Workflows + Salesforce Flow for auto-assignment by territory/industry.</li>
+        <li>Created SLA alerts (email/Slack) for unworked MQLs after 2 hours.</li>
+      </ul>
+      <p><a class="btn" href="../assets/lifecycle_conversion.csv" download>Download sample dataset (CSV)</a></p>
+    </div>
+    <div class="card">
+      <h3>Key Outcomes</h3>
+      <div class="kpis">
+        <div class="kpi"><div class="val">+6 pts</div><small>MQL→SQL conversion lift in 90 days</small></div>
+        <div class="kpi"><div class="val">-35%</div><small>Unworked MQLs after SLA policy</small></div>
+        <div class="kpi"><div class="val">1.5 mo</div><small>Payback based on incremental pipeline</small></div>
+      </div>
+      <img src="../assets/lifecycle_conversion.png" alt="Dashboard" style="width:100%;border-radius:12px;margin-top:10px;border:1px solid #23284e">
+    </div>
+  </div>
+  <div class="card">
+    <h3>How It Was Built</h3>
+    <ol>
+      <li>Defined success metrics and baseline; created shared definitions for lifecycle/stages.</li>
+      <li>Mapped data model (Objects, key fields, ownership) and access via Profiles/Permission Sets.</li>
+      <li>Implemented automation (HubSpot Workflows / Salesforce Flow) and tested in sandbox.</li>
+      <li>Deployed dashboards with weekly review cadence; documented SOPs.</li>
+    </ol>
+    <pre>// Pseudo-config notes
+// - Validation: required fields at stage changes
+// - Flow: round-robin assignment, SLA timers
+// - Reports: cohort trends, stuck items, SLA breaches</pre>
+  </div>
+  <div class="footer">© Stanley Asamoah</div>
+</div>
+</body></html>

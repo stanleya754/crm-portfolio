@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulated Project: Data Enrichment & Routing Accuracy</title>
+<link rel="stylesheet" href="../style.css"></head><body>
+<div class="container">
+  <div class="nav">
+    <div class="brand">Stanley Asamoah · CRM/RevOps</div>
+    <div class="links">
+      <a href="../index.html">Home</a><a href="../projects.html">Projects</a><a href="../salesforce.html">Salesforce</a><a href="../hubspot.html">HubSpot</a><a href="../roi-calculator.html">ROI Calculator</a><a href="../resume.html">Resume</a><a href="../contact.html">Contact</a>
+    </div>
+  </div>
+  <p class="badge">This is simulated project/lab work designed to demonstrate skills and thinking. Updated October 14, 2025.</p>
+  <h1>Simulated Project: Data Enrichment & Routing Accuracy</h1>
+  <div class="grid">
+    <div class="card">
+      <h3>Overview</h3>
+      <p>Improved routing precision with firmographic enrichment and rules.</p>
+      <ul>
+        <li>Mapped enrichment fields to CRM objects and defined confidence thresholds.</li>
+        <li>Territory rules by industry, employee band, and geography.</li>
+        <li>Backfill job to update legacy records.</li>
+      </ul>
+      <p><a class="btn" href="../assets/routing_accuracy.csv" download>Download sample dataset (CSV)</a></p>
+    </div>
+    <div class="card">
+      <h3>Key Outcomes</h3>
+      <div class="kpis">
+        <div class="kpi"><div class="val">+19 pts</div><small>Routing accuracy</small></div>
+        <div class="kpi"><div class="val">-28%</div><small>Reassignments after first touch</small></div>
+        <div class="kpi"><div class="val">+7%</div><small>Meetings held rate</small></div>
+      </div>
+      <img src="../assets/routing_accuracy.png" alt="Dashboard" style="width:100%;border-radius:12px;margin-top:10px;border:1px solid #23284e">
+    </div>
+  </div>
+  <div class="card">
+    <h3>How It Was Built</h3>
+    <ol>
+      <li>Defined success metrics and baseline; created shared definitions for lifecycle/stages.</li>
+      <li>Mapped data model (Objects, key fields, ownership) and access via Profiles/Permission Sets.</li>
+      <li>Implemented automation (HubSpot Workflows / Salesforce Flow) and tested in sandbox.</li>
+      <li>Deployed dashboards with weekly review cadence; documented SOPs.</li>
+    </ol>
+    <pre>// Pseudo-config notes
+// - Validation: required fields at stage changes
+// - Flow: round-robin assignment, SLA timers
+// - Reports: cohort trends, stuck items, SLA breaches</pre>
+  </div>
+  <div class="footer">© Stanley Asamoah</div>
+</div>
+</body></html>

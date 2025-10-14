@@ -1,0 +1,37 @@
+
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRM ROI Calculator</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="container">
+  <div class="nav">
+    <div class="brand">Stanley Asamoah · CRM/RevOps</div>
+    <div class="links">
+      <a href="index.html">Home</a><a href="projects.html">Projects</a><a href="salesforce.html">Salesforce</a><a href="hubspot.html">HubSpot</a><a href="roi-calculator.html">ROI Calculator</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <h1>ROI Calculator</h1>
+  <div class="grid">
+    <div class="card">
+      <h3>Inputs</h3>
+      <label>Monthly inbound leads <input id="leads" type="number" value="250"></label><br><br>
+      <label>Lead→Deal conversion % <input id="conv" type="number" value="7"></label><br><br>
+      <label>Avg deal size ($) <input id="deal" type="number" value="1800"></label><br><br>
+      <label>Avg sales cycle (days) <input id="cycle" type="number" value="45"></label><br><br>
+      <label>Monthly CRM/program cost ($) <input id="cost" type="number" value="1200"></label>
+    </div>
+    <div class="card">
+      <h3>Outputs</h3>
+      <table>
+        <tr><th>Expected deals / mo</th><td id="outDeals">—</td></tr>
+        <tr><th>Expected revenue / mo</th><td id="outRevenue">—</td></tr>
+        <tr><th>Payback period</th><td id="outPayback">—</td></tr>
+        <tr><th>Sales cycle</th><td id="outCycle">—</td></tr>
+      </table>
+      <small>Tip: Adjust conversion & cost to model adoption scenarios.</small>
+    </div>
+  </div>
+  <div class="footer">© Stanley Asamoah</div>
+</div>
+<script src="script.js"></script>
+</body></html>
